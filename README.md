@@ -1,1 +1,1 @@
-# gitBash
+# Примеры команд в gitBash
