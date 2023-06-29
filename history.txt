@@ -1,18 +1,18 @@
-    1  pwd  \\ узнать расположение
+    1  pwd  \\ узнать текущее расположение
     2  mkdir numberOne \\ создать папку
     3  cd numberOne \\ перейти в папку
     4  mkdir First Second Third \\ создать 3 папки
     5  cd Second \\ перейти в папку
-    6  touch first.txt second.txt third.txt firstJ.json secondJ.json \\ создание файлов
-    7  mkdir FirstD SecondD ThirdD \\ создание папок
-    8  ls -l \\ вывод списка файлов в директории
+    6  touch first.txt second.txt third.txt firstJ.json secondJ.json \\ создать несколько файлов
+    7  mkdir FirstD SecondD ThirdD \\ создать несколько папок
+    8  ls -l \\ вывод списка файлов в папке
     9  cat first.txt \\ вывод содержимого текстового файла
    10  vim first.txt \\ текстовый редактор
    11  cd .. \\ выход из директории на уровень выше
-   12  mv Second/first.txt First/first.txt \\ перемещение файла
-   13  mv Second/firstJ.json First/firstJ1.json \\ перемещение файла с переименованием
-   14  cp Second/second.txt First/second.txt \\ копия файла
-   15  cp Second/secondJ.json First/secondJ1.json \\ копия файла с переименованием
+   12  mv Second/first.txt First/first.txt \\ перемещение файла в другую папку
+   13  mv Second/firstJ.json First/firstJ1.json \\ перемещение файла в другую папку с переименованием
+   14  cp Second/second.txt First/second.txt \\ копия файла в другую папку
+   15  cp Second/secondJ.json First/secondJ1.json \\ копия файла в другую папку с переименованием
    16  find -name secondJ1.json \\ поиск файла по имени
    17  cat > forGreF.txt \\ создание и запись текстового файла
    18  grep . forGreF.txt \\ вывод содержимого файла
